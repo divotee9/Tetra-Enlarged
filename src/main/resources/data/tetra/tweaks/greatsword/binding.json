@@ -1,0 +1,13 @@
+[
+    {
+        "variant": "greatsword_binding/bolt",
+        "key": "greatsword_tweak/binding_bolt",
+        "steps": 10,
+        "properties": {
+            "attributes": {
+                "**generic.attack_damage": 0.02
+            },
+            "durabilityMultiplier": 0.952
+        }
+    }
+]

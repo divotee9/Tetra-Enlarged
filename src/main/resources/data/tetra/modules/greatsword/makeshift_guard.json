@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/guard" ],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:bone/", "tetra:gem/" ],
+            "key": "makeshift_guard/",
+            "attributes": {
+                "generic.attack_speed": -0.05
+            },
+            "extract": {
+                "durability": 0.06,
+                "glyph": {
+                    "textureX": 7,
+                    "textureY": 16
+                },
+                "availableTextures": [ "shiny", "default" ],
+                "models": [ { "location": "tetra:items/module/greatsword/guard/makeshift_guard/" } ]
+            }
+        }
+    ]
+}

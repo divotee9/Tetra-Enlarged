@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        "###",
+        "/# "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_greatsword",
+        "nbt": {
+            "id": "0612xl93-057v-45pa-8lat-8c0d71gb00b",
+            "greatsword/blade": "greatsword/heavy_blade",
+            "greatsword/heavy_blade_material": "heavy_blade/oak",
+            "greatsword/hilt": "greatsword/basic_hilt",
+            "greatsword/basic_hilt_material": "basic_hilt/stick",
+            "greatsword/guard": "greatsword/makeshift_guard",
+            "greatsword/makeshift_guard_material": "makeshift_guard/oak",
+            "greatsword/pommel": "greatsword/decorative_pommel",
+            "greatsword/decorative_pommel_material": "decorative_pommel/oak"
+        }
+    }
+}

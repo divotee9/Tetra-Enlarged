@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/pommel" ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:bone/", "tetra:gem/" ],
+            "key": "decorative_pommel/",
+            "attributes": {
+                "generic.attack_speed": -0.05
+            },
+            "extract": {
+                "durability": 0.04,
+                "glyph": {
+                    "textureX": 14,
+                    "textureY": 16
+                },
+                "availableTextures": [ "default" ],
+                "models": [ { "location": "tetra:items/module/greatsword/pommel/decorative_pommel/" } ]
+            }
+        }
+    ]
+}

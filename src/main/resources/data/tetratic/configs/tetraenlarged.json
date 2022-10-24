@@ -1,0 +1,50 @@
+{
+  "Version": 1.0,
+  "attributemap": {
+    "greatsword/blade": {
+      "greatsword/heavy_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
+      },
+      "greatsword/crucible_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
+      },
+      "greatsword/executioner_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
+      },
+      "greatsword/bastard_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
+      },
+      "greatsword/flamberge_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
+      },
+      "greatsword/odachi_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:katana"
+          }
+        }
+      }
+
+    }
+  }
+}

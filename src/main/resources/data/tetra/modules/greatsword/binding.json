@@ -1,0 +1,44 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/guard" ],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "tweakKey": "tetra:greatsword/binding",
+    "variants": [
+        {
+            "materials": [ "tetra:fibre/", "tetra:skin/" ],
+            "key": "greatsword_binding/",
+            "extract": {
+                "secondaryAttributes": {
+                    "generic.attack_speed": -0.1
+                },
+                "durability": 0.1,
+                "integrity": 0.7,
+                "glyph": {
+                    "textureX": 88,
+                    "textureY": 16
+                },
+                "availableTextures": [ "default" ],
+                "models": [ { "location": "tetra:items/module/greatsword/guard/binding/" } ]
+            }
+        },
+        {
+            "key": "greatsword_binding/bolt",
+            "durability": 12,
+            "attributes": {
+                "generic.attack_speed": -0.1
+            },
+            "glyph": {
+                "tint": "bolt_glyph",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/greatsword/guard/binding/bolt",
+                    "tint": "bolt"
+                }
+            ]
+        }
+    ]
+}
