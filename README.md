@@ -18,8 +18,8 @@ Issues:
 - No textures for serrated, tempered, and hooked improvements yet.
 
 Planned Features:
-Modular Polearms: 32x versions of single-headed tools. The halberd head will become exclusive to the modular polearm.
-Tweaking module stats to further differentiate blades.
+- Modular Polearms: 32x versions of single-headed tools. The halberd head will become exclusive to the modular polearm.
+- Tweaking module stats to further differentiate blades.
   
 Possible Features:
 - Twinblades: Functions like the modular double's left and right heads, but with up and down blades. 2 blades, hilt, 1 guard, fuller, no pommel. A twinblade weapon preset exists in Better Combat, there wouldn't be much twinblade-y about it without BC.
