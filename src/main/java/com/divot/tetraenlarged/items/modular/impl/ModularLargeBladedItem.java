@@ -10,9 +10,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.registries.ObjectHolder;
 import se.mickelus.mutil.network.PacketHandler;
 import se.mickelus.tetra.ConfigHandler;
-import se.mickelus.tetra.TetraItemGroup;
 import se.mickelus.tetra.TetraMod;
 import se.mickelus.tetra.data.DataManager;
+import se.mickelus.tetra.items.TetraItemGroup;
 import se.mickelus.tetra.items.modular.IModularItem;
 import se.mickelus.tetra.items.modular.ItemModularHandheld;
 import se.mickelus.tetra.module.SchematicRegistry;
@@ -33,7 +33,11 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
 
     public static final String identifier = "modular_greatsword";
 
-    @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
+    // @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
+    @ObjectHolder(
+            registryName = "item",
+            value = "tetra:modular_greatsword"
+    )
     public static ModularLargeBladedItem instance;
 
     public ModularLargeBladedItem() {
@@ -64,7 +68,7 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
 
     @Override
     public void fillItemCategory(CreativeModeTab group, NonNullList<ItemStack> items) {
-        if (allowdedIn(group)) {
+        if (allowedIn(group)) {
             items.add(setupGreatSwordStack("iron", "stick"));
         }
     }
