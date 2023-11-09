@@ -198,5 +198,12 @@
 
     "tetra.module.greatsword/makeshift_guard.name": "Makeshift guard",
     "tetra.module.greatsword/makeshift_guard.description": "A sword guard, its weak construction provides little protection for the wielding hand.",
-    "tetra.module.greatsword/makeshift_guard.material_name": "Makeshift %s guard"
+    "tetra.module.greatsword/makeshift_guard.material_name": "Makeshift %s guard",
+
+    "tetra/schematic/greatsword/howling.name": "Howling blade",
+    "tetra/schematic/greatsword/howling.description": "Craft a set of fuller attachments that will cause howling winds to envelop the wielder when the sword is swung, the winds will occasionally deflect incoming projectiles.",
+    "tetra/schematic/greatsword/howling.slot1": "Material",
+    "tetra.module.greatsword/howling.name": "Howlers",
+    "tetra.module.greatsword/howling.description": "A fuller attachment that causes howling winds to envelop the wielder, the winds occasionally deflects incoming projectiles.",
+    "tetra.module.greatsword/howling.material_name": "%s howler"
 }

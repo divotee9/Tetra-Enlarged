@@ -11,7 +11,7 @@
     },
     "outcomes": [
         {
-            "material": [ "tetra:socket/" ],
+            "materials": [ "tetra:socket/" ],
             "moduleKey": "greatsword/socket",
             "moduleVariant": "greatsword_socket/",
             "experienceFactor": 1

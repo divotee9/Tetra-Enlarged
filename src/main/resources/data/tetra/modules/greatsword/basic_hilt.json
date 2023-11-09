@@ -11,7 +11,7 @@
     ],
     "variants": [
         {
-            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rods/" ],
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
             "key": "basic_hilt/",
             "attributes": {
                 "generic.attack_speed": -0.35
